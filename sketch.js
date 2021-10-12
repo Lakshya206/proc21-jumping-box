@@ -42,7 +42,7 @@ function draw() {
     background(rgb(169,169,169));
 
 
-    //create edgeSprite
+    //create edgeSprite;
     edges=createEdgeSprites();
     ball.bounceOff(edges);
 
